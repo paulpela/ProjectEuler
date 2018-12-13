@@ -11,6 +11,8 @@
 		E5D8A6CF21C2797600FFD90D /* ProjectEuler001Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D8A6CE21C2797600FFD90D /* ProjectEuler001Tests.swift */; };
 		E5D8A6D121C2797600FFD90D /* ProjectEuler.h in Headers */ = {isa = PBXBuildFile; fileRef = E5D8A6C321C2797600FFD90D /* ProjectEuler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5D8A6DB21C2798A00FFD90D /* Problem001.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D8A6DA21C2798A00FFD90D /* Problem001.swift */; };
+		E5D8A6DF21C27C2400FFD90D /* ProjectEuler002Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D8A6DE21C27C2400FFD90D /* ProjectEuler002Tests.swift */; };
+		E5D8A6E121C27D0000FFD90D /* Problem002.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D8A6E021C27D0000FFD90D /* Problem002.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,8 @@
 		E5D8A6CE21C2797600FFD90D /* ProjectEuler001Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectEuler001Tests.swift; sourceTree = "<group>"; };
 		E5D8A6D021C2797600FFD90D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5D8A6DA21C2798A00FFD90D /* Problem001.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem001.swift; sourceTree = "<group>"; };
+		E5D8A6DE21C27C2400FFD90D /* ProjectEuler002Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectEuler002Tests.swift; sourceTree = "<group>"; };
+		E5D8A6E021C27D0000FFD90D /* Problem002.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem002.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 			children = (
 				E5D8A6DC21C27B4700FFD90D /* Supporting Files */,
 				E5D8A6DA21C2798A00FFD90D /* Problem001.swift */,
+				E5D8A6E021C27D0000FFD90D /* Problem002.swift */,
 			);
 			path = ProjectEuler;
 			sourceTree = "<group>";
@@ -84,6 +89,7 @@
 			children = (
 				E5D8A6D021C2797600FFD90D /* Info.plist */,
 				E5D8A6CE21C2797600FFD90D /* ProjectEuler001Tests.swift */,
+				E5D8A6DE21C27C2400FFD90D /* ProjectEuler002Tests.swift */,
 			);
 			path = ProjectEulerTests;
 			sourceTree = "<group>";
@@ -206,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5D8A6E121C27D0000FFD90D /* Problem002.swift in Sources */,
 				E5D8A6DB21C2798A00FFD90D /* Problem001.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5D8A6DF21C27C2400FFD90D /* ProjectEuler002Tests.swift in Sources */,
 				E5D8A6CF21C2797600FFD90D /* ProjectEuler001Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
